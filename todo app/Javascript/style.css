@@ -20,7 +20,7 @@ body {
 }
 header {
   font-size: 2rem;
-  text-shadow: 3px 1px 2px rgb(93, 122, 93);
+  text-shadow: 3px 1px 2px rgb(78, 78, 78);
 }
 
 header,
@@ -72,16 +72,24 @@ form button:hover {
 }
 .todo {
   margin: 0.5rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.822);
+box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+
   font-size: 1.5rem;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .filter-todo {
   padding: 1rem;
+  
 }
 .todo li {
   flex: 1;
