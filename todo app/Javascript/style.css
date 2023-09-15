@@ -132,3 +132,9 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+
+input::placeholder {
+  font: 1.3rem/3 sans-serif;
+  font-weight: 500;
+}
