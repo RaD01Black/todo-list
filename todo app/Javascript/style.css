@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+
 * {
    margin: 0;
    padding: 0;
@@ -9,7 +11,11 @@ body {
   background-position: center;
   background-size: cover;
   color: white;
-  font-family: "Poppins", sans-serif;
+    font-family: Gabriela, serif;
+    text-align: center;
+
+    
+
   min-height: 100vh;
 }
 header {
@@ -23,6 +29,9 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+header h1 {
+  transform: translateY(5rem);
 }
 form input,
 form button {
