@@ -32,12 +32,13 @@ form button {
   background: white;
 }
 form input {
-   border-top-left-radius: 10px;
-   border-bottom-left-radius: 10px;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+  
 }
 form button {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 form button {
   color: #c4447a;
@@ -137,4 +138,8 @@ select {
 input::placeholder {
   font: 1.3rem/3 sans-serif;
   font-weight: 500;
+  padding-left: 10px;
 }
+
+
+
